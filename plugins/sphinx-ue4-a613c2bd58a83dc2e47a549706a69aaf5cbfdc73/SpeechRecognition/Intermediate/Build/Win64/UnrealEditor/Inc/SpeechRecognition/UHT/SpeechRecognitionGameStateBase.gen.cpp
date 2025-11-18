@@ -62,7 +62,9 @@ struct Z_Construct_UClass_ASpeechRecognitionGameStateBase_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "HideCategories", "Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "SpeechRecognitionGameStateBase.h" },
 		{ "ModuleRelativePath", "Public/SpeechRecognitionGameStateBase.h" },
@@ -74,9 +76,13 @@ struct Z_Construct_UClass_ASpeechRecognitionGameStateBase_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OptionalWorldList_MetaData[] = {
 		{ "Category", "Audio|SpeechRecognition" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Optional phrases to recognize */" },
+#endif
 		{ "ModuleRelativePath", "Public/SpeechRecognitionGameStateBase.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional phrases to recognize" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_Language_Underlying;
@@ -142,14 +148,14 @@ ASpeechRecognitionGameStateBase::~ASpeechRecognitionGameStateBase() {}
 // End Class ASpeechRecognitionGameStateBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_Ula_Desktop_SpeechRecognition_HostProject_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_salim_Documents_Unreal_Projects_Sari_Cizgi_1_TansMansion_Plugins_sphinx_ue4_a613c2bd58a83dc2e47a549706a69aaf5cbfdc73_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASpeechRecognitionGameStateBase, ASpeechRecognitionGameStateBase::StaticClass, TEXT("ASpeechRecognitionGameStateBase"), &Z_Registration_Info_UClass_ASpeechRecognitionGameStateBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpeechRecognitionGameStateBase), 3841620860U) },
+		{ Z_Construct_UClass_ASpeechRecognitionGameStateBase, ASpeechRecognitionGameStateBase::StaticClass, TEXT("ASpeechRecognitionGameStateBase"), &Z_Registration_Info_UClass_ASpeechRecognitionGameStateBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASpeechRecognitionGameStateBase), 2963436165U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Ula_Desktop_SpeechRecognition_HostProject_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_2743462658(TEXT("/Script/SpeechRecognition"),
-	Z_CompiledInDeferFile_FID_Users_Ula_Desktop_SpeechRecognition_HostProject_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Ula_Desktop_SpeechRecognition_HostProject_Plugins_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_salim_Documents_Unreal_Projects_Sari_Cizgi_1_TansMansion_Plugins_sphinx_ue4_a613c2bd58a83dc2e47a549706a69aaf5cbfdc73_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_3925405523(TEXT("/Script/SpeechRecognition"),
+	Z_CompiledInDeferFile_FID_Users_salim_Documents_Unreal_Projects_Sari_Cizgi_1_TansMansion_Plugins_sphinx_ue4_a613c2bd58a83dc2e47a549706a69aaf5cbfdc73_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_salim_Documents_Unreal_Projects_Sari_Cizgi_1_TansMansion_Plugins_sphinx_ue4_a613c2bd58a83dc2e47a549706a69aaf5cbfdc73_SpeechRecognition_Source_SpeechRecognition_Public_SpeechRecognitionGameStateBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
