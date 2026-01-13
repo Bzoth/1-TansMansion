@@ -68,7 +68,7 @@ Build/*/**
 Saved/*
 
 # Ignore config files
-!Saved/config/WindowsEditor
+!Saved/config/WindowsEditor/EditorPerProjectUserSettings.ini
 
 # Compiled source files for the engine to use
 Intermediate/*
